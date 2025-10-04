@@ -29,8 +29,8 @@ header > h1 {
 .journal-entry{
   display: flex;
   margin: 2rem;
-  justify-content: center;
-  align-content: center;
+  
+  
 }
 
 .main-image{
