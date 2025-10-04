@@ -9,16 +9,8 @@ function App() {
       <main className='container'>
         {DataArray.map(data => 
           <Entry 
-            img ={{
-                src: data.img.src ,
-                alt: data.img.alt
-            }}
-            title = {data.title}
-            location = {data.country}
-            mapLink = {data.googleMapsLink}
-            date = {data.dates}
-            content = {data.text}
-            
+          key={data.id}
+          entry={data}
           />
         )}
       </main>
