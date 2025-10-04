@@ -14,10 +14,10 @@ function App() {
                 alt: data.img.alt
             }}
             title = {data.title}
-            country = {data.country}
-            googleMapsLink = {data.googleMapsLink}
-            dates = {data.dates}
-            text = {data.text}
+            location = {data.country}
+            mapLink = {data.googleMapsLink}
+            date = {data.dates}
+            content = {data.text}
             
           />
         )}
